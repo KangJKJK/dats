@@ -13,7 +13,7 @@ echo ""
 
 # 도커 설치 확인
 echo -e "${BOLD}${CYAN}Docker 설치 확인 중...${NC}"
-if ! command -v docker &> /dev/null; then
+if command -v docker >/dev/null 2>&1; then
     echo -e "${RED}Docker가 설치되어 있지 않습니다. Docker를 설치하는 중입니다...${NC}"
     sudo apt update && sudo apt install -y curl net-tools
     curl -fsSL https://get.docker.com -o get-docker.sh
