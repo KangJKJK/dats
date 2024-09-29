@@ -49,7 +49,7 @@ echo -e "${BOLD}${CYAN}필요한 네트워크를 오픈 중...${NC}"
 sudo ufw enable
 sudo ufw allow ssh
 sudo ufw allow 22
-sudo ufw allow 4001
+sudo ufw allow 4001/tcp
 sudo ufw allow 4000/tcp
 
 # dats디앱설치
