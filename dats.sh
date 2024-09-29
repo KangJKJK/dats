@@ -54,6 +54,7 @@ sudo ufw allow 4000/tcp
 
 # dats디앱설치
 echo -e "${BOLD}${CYAN}Dats프로잭트 디앱 설치 중...${NC}"
+sudo apt-get install libxss1
 wget https://dl.datsproject.io/evm-linux-deb -O evm-linux.deb
 sudo dpkg -i evm-linux.deb
 
