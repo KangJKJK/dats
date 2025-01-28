@@ -57,6 +57,9 @@ echo -e "${BOLD}${CYAN}Dats프로잭트 디앱 설치 중...${NC}"
 sudo apt-get install libxss1
 wget https://dl.datsproject.io/evm-linux-deb -O evm-linux.deb
 sudo dpkg -i evm-linux.deb
+sudo chown -R root:root /opt/DATS
+sudo chmod -R 755 /opt/DATS
+sudo chmod +x /opt/DATS/dats
 
 # 데스크탑-원격 프로그램 설치
 echo -e "${GREEN}이제부터는 안내문구에 따라 데스크탑에서 작업을 진행하세요.${NC}"
