@@ -76,9 +76,8 @@ echo -e "${YELLOW}CMD창을 열어서 해당 명령어를 작성하세요: dats-
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
 # 데스크탑-메타마스크 연동
-echo -e "${YELLOW}Dats-project가 실행되면 모바일 메타마스크로 연동을 하세요.${NC}"
-echo -e "${YELLOW}DDOS TEST에 있는 Run speed TEST는 절대 클릭하지 마세요.${NC}"
-echo -e "${YELLOW}DDOS Testnet부터 Blockchain Security까지 모두 활성화를 시키시고 Save Changes를 눌러주세요.${NC}"
+echo -e "${YELLOW}Dats-project가 실행되면 모바일 메타마스크로 연동을 하세요.(PEAQ 메인넷으로 네트워크 변경 후 연결하셔야합니다.)${NC}"
+echo -e "${YELLOW}왼쪽 메뉴에있는 Bandwitch, CPU, GPU를 순서대로 액티브 해주세요.${NC}"
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
 echo -e "${GREEN}모든 작업이 완료되었습니다. https://fairdrop.datsproject.io/missions 에서 추가 에어드랍작업을 진행해주세요.${NC}"
