@@ -59,7 +59,7 @@ wget https://dl.datsproject.io/evm-linux-deb -O evm-linux.deb
 sudo dpkg -i evm-linux.deb
 
 # 데스크탑-원격 프로그램 설치
-echo -e "${YELLOW}이제부터는 안내문구에 따라 데스크탑에서 작업을 진행하세요.${NC}"
+echo -e "${GREEN}이제부터는 안내문구에 따라 데스크탑에서 작업을 진행하세요.${NC}"
 echo -e "${YELLOW}해당 사이트에 방문하시고 원격 프로그램을 데스크탑에 설치해주세요.${NC}"
 echo -e "${YELLOW}https://www.nomachine.com/${NC}"
 read -p "설치가 끝나면 엔터를 눌러주세요."
@@ -71,6 +71,7 @@ read -p "접속이 끝나면 엔터를 눌러주세요."
 
 # 데스크탑-CMD 실행
 echo -e "${YELLOW}ID에는 root를 PW에는 VPS접속할 때 사용하는 PW를 적고 VPS에 원격으로 접속하세요.${NC}"
+echo -e "${GREEN}이제부터는 안내문구에 따라 원격프로그램 내부에서 작업을 진행하세요.(VPSX,원격O)${NC}"
 echo -e "${YELLOW}CMD창을 열어서 해당 명령어를 작성하세요: /opt/DATS/dats --no-sandbox${NC}"
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
@@ -80,7 +81,8 @@ echo -e "${YELLOW}2.VPS당 연동시킬 이메일주소를 결정하여 Mint Yoo
 echo -e "${YELLOW}3.우측상단에있는 사람모양을 클릭하여 셀퍼럴을 진행해주세요.최초실행시 제 레퍼럴을 사용해주세요.${NC}"
 echo -e "${YELLOW}Ptr9EXnJCEjbo0dDBcXcypH3Vzd/s8zV/+nl/Q+k9YyqzriJobkos5S5FsnPp8re${NC}"
 echo -e "${YELLOW}4.왼쪽 메뉴에있는 Bandwitch, CPU, GPU를 순서대로 액티브 해주세요.${NC}"
+echo -e "${YELLOW}5.액티브과정중 오류가생긴다면 Dats프로그램을 종료 후 /opt/DATS/dats --no-sandbox 이 명령어를 다시 실행하세요.${NC}"
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
-echo -e "${GREEN}모든 작업이 완료되었습니다. https://fairdrop.datsproject.io/missions 에서 추가 에어드랍작업을 진행해주세요.${NC}"
+echo -e "${GREEN}모든 작업이 완료되었습니다.${NC}"
 echo -e "${GREEN}스크립트 작성자: https://t.me/kjkresearch${NC}"
