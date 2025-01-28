@@ -62,8 +62,7 @@ sudo dpkg -i evm-linux.deb
 echo -e "${YELLOW}이제부터는 안내문구에 따라 데스크탑에서 작업을 진행하세요.${NC}"
 echo -e "${YELLOW}해당 사이트에 방문하시고 원격 프로그램을 데스크탑에 설치해주세요.${NC}"
 echo -e "${YELLOW}https://www.nomachine.com/${NC}"
-echo -e "${YELLOW}해당사이트에 접속하여 Faucet을 받아주세요.: https://faucet.datsproject.io/${NC}"
-read -p "설치 및 Faucet이 끝나면 엔터를 눌러주세요."
+read -p "설치가 끝나면 엔터를 눌러주세요."
 
 # 데스크탑-원격 프로그램 실행
 echo -e "${YELLOW}Nomachine 원격프로그램을 실행한 후 VPS IP와 Port넘버를 기입하여 접속하세요.${NC}"
@@ -76,8 +75,11 @@ echo -e "${YELLOW}CMD창을 열어서 해당 명령어를 작성하세요: dats-
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
 # 데스크탑-메타마스크 연동
-echo -e "${YELLOW}Dats-project가 실행되면 모바일 메타마스크로 연동을 하세요.(PEAQ 메인넷으로 네트워크 변경 후 연결하셔야합니다.)${NC}"
-echo -e "${YELLOW}왼쪽 메뉴에있는 Bandwitch, CPU, GPU를 순서대로 액티브 해주세요.${NC}"
+echo -e "${YELLOW}1.Dats-project가 실행되면 모바일 메타마스크로 연동을 하세요.(PEAQ 메인넷으로 네트워크 변경 후 연결하셔야합니다.)${NC}"
+echo -e "${YELLOW}2.VPS당 연동시킬 이메일주소를 결정하여 Mint Yoour Peaq DID를 클릭해주세요.${NC}"
+echo -e "${YELLOW}3.우측상단에있는 사람모양을 클릭하여 셀퍼럴을 진행해주세요.최초실행시 제 레퍼럴을 사용해주세요.${NC}"
+echo -e "${YELLOW}Ptr9EXnJCEjbo0dDBcXcypH3Vzd/s8zV/+nl/Q+k9YyqzriJobkos5S5FsnPp8re${NC}"
+echo -e "${YELLOW}4.왼쪽 메뉴에있는 Bandwitch, CPU, GPU를 순서대로 액티브 해주세요.${NC}"
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
 echo -e "${GREEN}모든 작업이 완료되었습니다. https://fairdrop.datsproject.io/missions 에서 추가 에어드랍작업을 진행해주세요.${NC}"
