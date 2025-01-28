@@ -35,8 +35,8 @@ sudo apt-get install indicator-datetime
 # Nomachine 원격 프로그램 설치
 echo -e "${BOLD}${CYAN}원격프로그램 설치 중...${NC}"
 sudo apt -y install wget
-wget https://download.nomachine.com/download/8.13/Linux/nomachine_8.13.1_1_amd64.deb
-sudo dpkg -i nomachine_8.13.1_1_amd64.deb
+wget https://download.nomachine.com/download/8.15/Linux/nomachine_8.15.3_1_amd64.deb
+sudo dpkg -i nomachine_8.15.3_1_amd64.deb
 
 # 크롬설치
 echo -e "${BOLD}${CYAN}크롬 설치 중...${NC}"
