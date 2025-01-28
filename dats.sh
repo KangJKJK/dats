@@ -71,7 +71,7 @@ read -p "접속이 끝나면 엔터를 눌러주세요."
 
 # 데스크탑-CMD 실행
 echo -e "${YELLOW}ID에는 root를 PW에는 VPS접속할 때 사용하는 PW를 적고 VPS에 원격으로 접속하세요.${NC}"
-echo -e "${YELLOW}CMD창을 열어서 해당 명령어를 작성하세요: dats-desktop --no-sandbox${NC}"
+echo -e "${YELLOW}CMD창을 열어서 해당 명령어를 작성하세요: /opt/DATS/dats --no-sandbox${NC}"
 read -p "실행이 완료되면 엔터를 눌러주세요."
 
 # 데스크탑-메타마스크 연동
