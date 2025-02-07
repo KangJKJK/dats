@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 echo -e "${GREEN}Dats 노드 관리 스크립트입니다.${NC}"
 echo -e "${YELLOW}원하시는 작업을 선택해주세요:${NC}"
 echo "1) Dats 신규 설치"
-echo "2) Dats 업데이트 (준비중)"
+echo "2) Dats 업데이트"
 echo ""
 read -p "선택 (1 또는 2): " choice
 
