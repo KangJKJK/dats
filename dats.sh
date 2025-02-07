@@ -52,6 +52,10 @@ sudo ufw allow 22
 sudo ufw allow 4001/tcp
 sudo ufw allow 4000/tcp
 
+# 기존폴더삭제
+sudo rm -rf /opt/DATS
+rm -f evm-linux.deb
+
 # dats디앱설치
 echo -e "${BOLD}${CYAN}Dats프로잭트 디앱 설치 중...${NC}"
 sudo apt-get install libxss1
